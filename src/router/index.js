@@ -51,11 +51,6 @@ const router = createRouter({
       component:createnewpassword
     },
     {
-      path: '/homepage',
-      name: 'homepage',
-      component:homepage
-    },
-    {
       path: '/fooddetails',
       name: 'fooddetails',
       component:fooddetails

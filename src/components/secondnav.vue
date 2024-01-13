@@ -16,20 +16,14 @@
                     </ul>
                 </div>
             </div>
-            <div class="customers-name">
-                <img src="@/assets/Group.jpg" class="logo-image-2" alt="">     
-                <p class="admins-name">Abimbola Oni </p>
-                <img src="@/assets/Vector.png" class="logo-image-3" alt="">
-            </div>
        </div>
     </div>
 </template>
 <style>
 .starting-secondnav{
     display:grid;
-    grid-template-columns: 3fr 9fr 2fr;
+    grid-template-columns: 5fr 9fr;
     padding:0 1%;
-
     /* border:2px solid green; */
     
 
@@ -150,7 +144,7 @@ color: #000000;
 @media screen and (max-width: 900px){
   .starting-secondnav{
     display:grid;
-    grid-template-columns: 3fr 7fr 3fr;
+    grid-template-columns: 5fr 9fr ;
     padding:0 0%;
     /* border:2px solid green; */
     width:100%;
