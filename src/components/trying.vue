@@ -136,7 +136,7 @@ import secondnav from '@/components/secondnav.vue'
                 
             </div>
        </div>
-       <div class="footers">
+       <div class="footer">
             <div class="the-top-footer">
                 <p class="the-top-footer-head">Subscribe to our newsletter today</p>
                 <p class="the-top-footer-p">Dont miss out on our offers & Receive all top Vendors via e-mail</p>
@@ -151,61 +151,54 @@ import secondnav from '@/components/secondnav.vue'
                    <button class="the-main-select-btn">Subscribe News letter</button>
                 </div>
             </div>
-            <div class="fix-footer">
-                <div class="fix-footer-uls">
-                    <ul>
-                        <li>CITY</li>
-                        <!-- <li class="footer-spaced">Lagos</li> -->
-                        <li>Abuja</li>
-                        <li>Ikeja</li>
-                        <li>surulere</li>
-                        <li>maitama</li>
-                        <li>victoria Island</li>
-                        <li>lekki phase 1</li>
-                       
-                    </ul>
-                </div>
-                <div class="fix-footer-uls">
-                    <ul>
-                        <li> CUISINES</li>
-                        <!-- <li class="footer-spaced">Burger in lagos</li> -->
-                        <li>Pizza in lagos</li>
-                        <li>Seafood in lagos</li>
-                        <li>cakes in lagos</li>
-                        <li>Pasta in lagos</li>
-                        <li>salads in abuja</li>
-                        <li>italian food in abuja</li>
-                        
-                    </ul>
-                </div>
-                
-                <div class="fix-footer-uls">
+            <div class="footer-uls">
+                <ul>
+                    <li>CITY</li>
+                    <li class="footer-spaced">Lagos</li>
+                    <li>Abuja</li>
+                    <li>Yaba</li>
+                    <li>Ikeja</li>
+                    <li>surulere</li>
+                    <li>wuse</li>
+                    <li>maitama</li>
+                    <li>victoria Island</li>
+                    <li>lekki phase 1</li>
+                    <li>supermarket online</li>
+                    <li>pharmacy online</li>
+                </ul>
+                <ul>
+                    <li> CUISINES</li>
+                    <li class="footer-spaced">Burger in lagos</li>
+                    <li>Pizza in lagos</li>
+                    <li>Seafood in lagos</li>
+                    <li>cakes in lagos</li>
+                    <li>Pasta in lagos</li>
+                    <li>salads in abuja</li>
+                    <li>italian food in abuja</li>
+                    
+                </ul>
+                <ul>
+                    <li>POPULAR VENDOR</li>
+                    <li class="footer-spaced">Hardrock</li>
+                    <li>shiro lagos</li>
+                    <li>bamboo lunge</li>
+                    <li>chiken capital</li>
+                    <li>crepway</li>
+                    <li>debonirs pizza </li>
+                    <li>drumstick</li>
 
-                    <ul>
-                        <li>VENDORS</li>
-                        <!-- <li class="footer-spaced">Hardrock</li> -->
-                        <li>shiro lagos</li>
-                        <li>bamboo lunge</li>
-                        <li>chiken capital</li>
-                        <li>crepway</li>
-                        <li>debonirs pizza </li>
-                        <li>drumstick</li>
-    
-                    </ul>
-                </div>
-                <div class="fix-footer-uls">    
-                    <ul>
-                        <li>MEGA STOP</li>
-                        <!-- <li class="footer-spaced">About</li> -->
-                        <li>contact</li>
-                        <li>terms and condition</li>
-                        <li>privacy policy</li>
-                        <li>delivery</li>
-                        <li>sell on mega stop</li>
-                        <li>vendors</li>
-    
-                    </ul>
-                </div>
+                </ul>
+                <ul>
+                    <li>MEGA STOP</li>
+                    <li class="footer-spaced">About</li>
+                    <li>contact</li>
+                    <li>terms and condition</li>
+                    <li>privacy policy</li>
+                    <li>delivery</li>
+                    <li>sell on mega stop</li>
+                    <li>vendors</li>
+
+                </ul>
             </div>
        </div>
        <div class="the-socials">
@@ -218,51 +211,6 @@ import secondnav from '@/components/secondnav.vue'
     </div>
 </template>
 <style>
-ul {
-margin: 0;
-padding: 0;
-}
-.footers{
-    background-color: black;
-}
-.fix-footer{
-    display:grid;
-    background-color: #000000;
-    grid-template-columns: repeat(4, 1fr);
-    /* border:2px solid blue; */
-    width:80%;
-    margin:0 auto;
-}
-.fix-footer-uls{
-    /* border:2px solid blue; */
-    /* width:80%; */
-    /* margin:0% auto; */
-
-}
-.fix-footer-uls ul{
-    /* border:2px solid red; */
-    list-style: none;
-    line-height: 20px;
-    /* background-color: #000000; */
-    /* display:contents; */
-    /* width:90%; */
-    /* margin:0% auto; */
-    /* margin:5% 0%; */
-    
-}
-.fix-footer-uls li{
-    /* border:2px solid yellow; */
-    margin:8% 0%;
-    
-    text-align:center;
-    font-size: 15px;
-
-    color:white;
-   
-}
-.footer-spaced{
-    margin-top:7%;
-} 
 /* the picture part */
 .the-big-picture{
     background-image:url("@/assets/food1.jpg");
@@ -581,7 +529,37 @@ padding: 0;
     color: #FFFFFF;
 
 }
+/* the footer */
+/* .footer{
+    width:100%;
+    border:2px solid red;
+    background-color: black;
+}
+.footer-uls{
+    border:2px solid blu;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    
 
+}
+.footer-uls ul{
+    border:2px solid yellow;
+    list-style: none;
+    text-align: center;
+    color:#D9D9D9;
+    line-height: 20px;
+    font-size: 15px;
+    font-family:"inter";
+    
+}
+.footer-uls ul li{
+           
+    border:2px solid green;
+    }
+.footer-spaced{
+    margin-top:7%;
+} */
 /* the social */
 .the-socials{
     /* border:2px solid green; */
@@ -982,52 +960,42 @@ padding: 0;
     }
 
     /* the footer */
-ul {
-    margin: 0;
-    padding: 0;
-}
-.footers{
-    /* background-color: black; */
-}
-.fix-footer{
-    display:grid;
-    background-color: #000000;
-    grid-template-columns: repeat(2, 1fr) ;
-    gap:0.5rem;
-    /* border:2px solid blue; */
-    width:95%;
-    margin:0 auto;
-}
-.fix-footer-uls{
-    /* border:2px solid blue; */
-    /* width:80%; */
-    /* margin:0% auto; */
+    .footer{
+        /* width:100%; */
+        border:2px solid green;
+        /* background-color: black; */
+    }
+    .footer-uls{
+         border:2px solid green;
+        /* width:100%; */
+        /* margin:0% auto; */
+        /* display:grid; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        
 
-}
-.fix-footer-uls ul{
-    /* border:2px solid red; */
-    list-style: none;
-    line-height: 20px;
-    /* background-color: #000000; */
-    /* display:contents; */
-    /* width:90%; */
-   
-    /* margin:5% 0%; */
-    
-}
-.fix-footer-uls li{
-    /* border:2px solid yellow; */
-    margin:8% 0%;
-    
-    text-align:center;
-    font-size: 10px;
-
-    color:white;
-   
-}
-.footer-spaced{
-    margin-top:7%;
-} 
+    }
+      /* color:#D9D9D9; */
+    .footer-uls ul{
+        border:2px solid green;
+        
+        list-style: none;
+        text-align:left;
+        color:black;
+        /* line-height: 15px;
+        font-size: 8px;
+        
+        font-family:"inter"; */
+        
+    }
+    .footer-uls ul li{
+           
+        border:2px solid green;
+        width:100%;
+       }
+    .footer-spaced{
+        /* margin-top:7%; */
+            border:2px solid green;
+    }
     /* the social */
     .the-socials{
         /* border:2px solid green; */
@@ -1046,33 +1014,32 @@ ul {
     }
     .the-top-footer{
         /* border:2px solid red; */
-        width:70%;
-        margin:auto;
+        /* width:60%; */
+        /* margin:auto;
         border-radius: 15px;
         background-color: #E89B07;
         padding-bottom:7px;
-        padding-top:3px;
+        padding-top:3px; */
         
     }
     .the-top-footer-head{
-        color:white;
+        /* color:white;
         text-align: center;
-        font-size:14px;
+        font-size:13px;
         color:#000000;
         font-family:'inter';
         font-weight:500;
-        margin-bottom:0px;
+        margin-bottom:0px; */
         /* border:2px solid green; */
         
     }
     .the-top-footer-p{
-        color:white;
+        /* color:white;
         text-align: center;
-        font-size:10px;
+        font-size:8px;
         color:#000000;
         font-family:'inter';
-        font-weight:500;
-        padding: 0px 4px;
+        font-weight:500; */
         /* border:2px solid green; */
     }
     .the-select-btn{
@@ -1080,9 +1047,8 @@ ul {
         width:90%;
         margin:auto;
         display: flex;
-        flex-direction:column;
-        justify-content: left;
-        align-items:left;
+        justify-content: center;
+        align-items:center;
         gap: 1rem;
     
 
@@ -1091,15 +1057,14 @@ ul {
         padding:5px 0px;
         border-radius:10px;
         border:none;
-        /* border:2px solid green; */
-        width:80%;
+        width:70px;
     
     }
     .select-tab{
         padding:5px 10px;
         border-radius:10px;
         border:none;
-        width:80%;
+        width:70px;
 
     }
     .the-main-select-btn{
@@ -1108,8 +1073,7 @@ ul {
         border:none;
         background-color: rgb(82, 41, 8);
         color:white;
-        font-size:15px;
-        width:80%;
+        font-size: 7px;
         /* border:2px solid green; */
         
     }
