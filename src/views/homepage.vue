@@ -970,7 +970,7 @@ padding: 0;
         margin:8% 0%;
     }
     .repeat-btn button{
-        border:2px solid green;
+        /* border:2px solid green; */
         background: #E89B07;
         border:none;
         border-radius: 8.39662px;
