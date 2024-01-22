@@ -588,11 +588,14 @@ padding: 0;
     background-color: black;
     display:flex;
     justify-content: flex-end;
-    align-content: center;
-    padding-bottom:3%;
+    gap:0.5rem;
+    align-content: end;
+    padding-bottom:1%;
 }
 .the-social-logo{
+    
     /* border:2px solid yellow; */
+    align-self:flex-end;
     width:25px;
     background-color:white ;
     border-radius: 90%;
